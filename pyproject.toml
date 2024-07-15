@@ -1,0 +1,12 @@
+[tool.isort]
+# see https://pycqa.github.io/isort/index.html
+profile = "black"
+src_paths = ["src"]
+
+[tool.black]
+# see https://black.readthedocs.io/en/stable/usage_and_configuration/the_basics.html#configuration-via-a-file
+line-length = 120
+verbose = true
+skip-string-normalization = false
+target-version = ['py38']
+include = '\.pyi?$'
