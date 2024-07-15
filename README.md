@@ -33,7 +33,7 @@ In a nutshell,
 # Important final notes
 
 * Under [Modeling Prototyping](notebooks/20240709_Prototyping.ipynb) a notebook has been included that was used for **early** data understanding & protoyping of the ML approach
-* The functions ```match``` and ```match_bulk``` that were required to be implemented can be found here [search.py](src/search.py) 
+* The functions ```match``` and ```match_bulk``` that were required to be implemented can be found here: [search.py](src/search.py) 
 * Docstrings have only been written for functions, that are not easily understandable via the function name only
 * As per the instructions in the task, no unit tests or CI/CD components have been integrated
 * If you'd like to run black and isort for code style and formatting, run ```make format-code``` in the terminal
