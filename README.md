@@ -26,7 +26,7 @@ In a nutshell,
 * A stratified split was chosen to preserve the curated 50/50 distribution of labels also during testing. Performed only a twofold split (no dev set) with 80/20 distribution, as no hyperparam tuning was required. 
 * [Gradient Boosting](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html) was chosen, as the modeling approach is known to work very well for tabular non-normalized data.
 * Accuracy was chosen as quality metric due to its very natural interpretation and the balanced nature of the target variable 
-* Feature selection has been performed based on theoretical considerations (e.g. avoiding perfectly linearly dependent features), the calculated feature importance (see [Modeling Prototyping](notebooks/20240709_Prototyping.ipynb) and the model quality measurement (see [COMMON.conf](config/COMMON.conf) for the final feature selection)
+* Feature selection has been performed based on theoretical considerations (e.g. avoiding perfectly linearly dependent features), the calculated feature importance (see [Modeling Prototyping](notebooks/20240709_Prototyping.ipynb)) and the model quality measurement (see [COMMON.conf](config/COMMON.conf) for the final feature selection)
 * Final accuracy was measured to be 99.25%, which was considered to be very good compared to a naive baseline (e.g. always predict label=1) which is expected to have an accuracy of 50%
 
 
