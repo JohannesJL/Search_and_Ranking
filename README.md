@@ -3,10 +3,10 @@
 This repository provides the solution to the tasks formulated in the README.md that can be found under
 [Google Drive](https://drive.google.com/drive/folders/1KZTA_a442UXXen9sr8lbdnnoGX2Qod9p). For reference the readme has also been integrated in this repo under [INITIALREADME.md](INITIALREADME.md).
 
-In a nutshell, the repo 
+In a nutshell, 
 
-1. Provides functionality to train and serialize a GradientBoostedTree Model that is able to match talents to jobs, see [training_task.py](src/tasks/training_task.py).
-2. Implements functionality to use the trained ML model to match jobs to talents, see [search_task.py](src/tasks/search_task.py).
+1. The repo provides functionality to train and serialize a GradientBoostedTree Model that is able to match talents to jobs, see [training_task.py](src/tasks/training_task.py).
+2. The repo implements functionality to use the trained ML model to match jobs to talents, see [search_task.py](src/tasks/search_task.py).
 
 # Install & Setup
 
