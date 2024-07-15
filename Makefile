@@ -5,6 +5,7 @@ SHELL 			    := /bin/bash -o pipefail
 ##@ setup
 .PHONY: setup
 setup:  # install dependencies
+	python -m pip install --upgrade pip
 	pip install -r requirements.txt -r requirements_dev.txt
 
 ##@ format code
