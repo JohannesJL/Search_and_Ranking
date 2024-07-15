@@ -1,0 +1,30 @@
+[tool.isort]
+# see https://pycqa.github.io/isort/index.html
+profile = "black"
+src_paths = ["src"]
+
+[tool.black]
+# see https://black.readthedocs.io/en/stable/usage_and_configuration/the_basics.html#configuration-via-a-file
+line-length = 120
+verbose = true
+skip-string-normalization = false
+target-version = ['py38']
+include = '\.pyi?$'
+
+[tool.coverage.run]
+omit = ['*/__init__.py', '*/constants.py']
+
+[tool.coverage.report]
+# you can also omit lines for the coverage report via the "# pragma: no cover" comment
+exclude_lines = [
+    'pragma: no cover',
+    '@abstract',
+    '@overload',
+    'raise AssertionError',
+    'raise NotImplementedError',
+    'if __name__ == .__main__.:',
+    'if TYPE_CHECKING',
+    'except Exception as e:',
+    'except Exception:',
+    'pass'
+]
